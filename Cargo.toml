@@ -9,3 +9,4 @@ edition = "2018"
 [dependencies]
 ducc = { git = "https://github.com/SkylerLipthay/ducc", rev = "558a0ec83cbb8aff57043cfafdb3d728cd509211" }
 html2md = "0.2.9"
+once_cell = "0.2.2"
