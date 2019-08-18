@@ -1,0 +1,11 @@
+[package]
+name = "citeproc"
+version = "0.1.0"
+authors = [
+    "Eric Förster <efoerster@users.noreply.github.com>",
+    "Patrick Förster <pfoerster@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+ducc = { git = "https://github.com/SkylerLipthay/ducc", rev = "558a0ec83cbb8aff57043cfafdb3d728cd509211" }
+html2md = "0.2.9"
